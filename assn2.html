@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="assn2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="assn2.html">Home</a></li>
+    <li><a href="assnstocks.html">Stocks</a></li>
+    <li><a href="assndogs.html">Dogs</a></li>
+  </ul>
+
+  <h1>Welcome to the Class Activities Site</h1>
+
+  <div id="quote-box">Loading quote...</div>
+
+  <div class="button-container">
+    <button class="custom-btn" onclick="location.href='assnstocks.html'">Stocks</button>
+    <button class="custom-btn" onclick="location.href='assndogs.html'">Dogs</button>
+  </div>
+
+  <div id="audio-controls">
+    <p>Say "Hello", "Change the color to blue", "Navigate to dogs"</p>
+    <button onclick="annyang.start()">Turn On Audio</button>
+    <button onclick="annyang.abort()">Turn Off Audio</button>
+  </div>
+
+  <script src="assn2main.js"></script>
+</body>
+</html>
