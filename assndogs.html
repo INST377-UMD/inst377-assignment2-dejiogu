@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dogs</title>
+  <link rel="stylesheet" href="assn2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="assn2.html">Home</a></li>
+    <li><a href="assnstocks.html">Stocks</a></li>
+    <li><a href="assndogs.html">Dogs</a></li>
+  </ul>
+
+  <h1>Dog Gallery</h1>
+
+  <div id="dog-carousel"></div>
+
+  <h2>Dog Breeds</h2>
+  <div id="breed-buttons"></div>
+
+  <div id="breed-info"></div>
+
+  <div id="audio-controls">
+    <p>Say "Load Dog Breed husky"</p>
+    <button onclick="annyang.start()">Turn On Audio</button>
+    <button onclick="annyang.abort()">Turn Off Audio</button>
+  </div>
+
+  <script src="assn2dogs.js"></script>
+</body>
+</html>
